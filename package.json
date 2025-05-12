@@ -1,0 +1,23 @@
+{
+  "name": "modulo-moderacion",
+  "version": "1.0.0",
+  "main": "infraestructura/servidor/ExpressServer.ts",
+  "scripts": {
+    "start": "ts-node infraestructura/servidor/ExpressServer.ts",
+    "dev": "nodemon infraestructura/servidor/ExpressServer.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.16.2",
+    "axios": "^1.9.0",
+    "express": "^4.21.2",
+    "prisma": "^6.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
