@@ -1,0 +1,7 @@
+-- CreateTable
+CREATE TABLE "Comentario" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "texto" TEXT NOT NULL,
+    "resultado" TEXT NOT NULL,
+    "fecha" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

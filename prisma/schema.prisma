@@ -1,0 +1,15 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite" // Cambia a "postgresql" si tienes PostgreSQL
+  url      = "file:./dev.db"
+}
+
+model Comentario {
+  id        Int      @id @default(autoincrement())
+  texto     String
+  resultado String
+  fecha     DateTime @default(now())
+}

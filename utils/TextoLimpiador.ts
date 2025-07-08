@@ -1,0 +1,1 @@
+export function limpiarTexto(texto: string): string { return texto.trim(); }

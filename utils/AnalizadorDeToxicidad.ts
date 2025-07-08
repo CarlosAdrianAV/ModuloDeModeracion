@@ -1,0 +1,1 @@
+export function calcularNivel(scores: Record<string, number>): string { return "medio"; }
